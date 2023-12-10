@@ -1,0 +1,155 @@
+/* Overall page style */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header style */
+  
+  header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 36px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  nav li {
+    float: right;
+  }
+  
+  nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav li a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Nearest stores section style */
+  
+  #nearest-stores {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  #nearest-stores h2 {
+    margin-top: 0;
+    font-size: 28px;
+  }
+  
+  #nearest-stores ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #nearest-stores li {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+  }
+  
+  #nearest-stores li h3 {
+    margin-top: 0;
+    font-size: 24px;
+  }
+  
+  #nearest-stores li p {
+    margin: 0;
+  }
+  
+  #nearest-stores li button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  #nearest-stores li button:hover {
+    background-color: #3e8e41;
+  }
+  
+  /* Items section style */
+  
+  #items {
+    padding: 20px;
+  }
+  
+  #items h2 {
+    margin-top: 0;
+    font-size: 28px;
+  }
+  
+  #items ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #items li {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+  }
+  
+  #items li h3 {
+    margin-top: 0;
+    font-size: 24px;
+  }
+  
+  #items li p {
+    margin: 0;
+  }
+  
+  #items li button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  #items li button:hover {
+    background-color: #3e8e41;
+  }
+  
+  /* Footer style */
+  
+  footer {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
